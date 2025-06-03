@@ -1,0 +1,33 @@
+Academic Research and Educational License (AREL)
+
+Copyright (c) 2025 Hector Mozo
+
+Permission is hereby granted, free of charge, to any person or institution obtaining a copy
+of this software and associated documentation files (the "Software"), to use, copy, modify, 
+and distribute the Software for **non-commercial academic and educational purposes only**, 
+under the following conditions:
+
+1. The Software **must not be used in commercial products, services, or any monetized form**
+   without explicit written permission from the copyright holder.
+
+2. Any publication, academic work, derivative project, or presentation that makes use of this 
+   Software **must include proper attribution to Hector Mozo** as the original author. Suggested citation:
+
+   > This system is based on the BB84 hybrid encryption protocol developed by Hector Mozo (2025), combining quantum key distribution and classical AES encryption with post-quantum enhancements.
+
+3. Redistribution of modified or unmodified versions must retain this license and acknowledgment
+   of the original author in both the source code and documentation.
+
+4. Collaboration and public forks are allowed under this license, provided that:
+   - Contributions are acknowledged alongside the original author.
+   - The original credit to Hector Mozo remains clearly visible and prominent.
+   - A notice of changes is included describing what was altered or added.
+
+5. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+   INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE
+   AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+   DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+For commercial licensing inquiries or partnership opportunities, contact:
+📧 hectormozo308@gmail.com
