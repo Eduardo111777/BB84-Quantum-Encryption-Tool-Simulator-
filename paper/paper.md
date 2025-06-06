@@ -53,24 +53,24 @@ The encryption workflow integrates quantum key generation with classical encrypt
 
 The BB84 protocol generates a shared key through basis comparison and sifting. The expected length of the shared key \( K \) is given by:
 
-\[
-|K| = L \times p_{match}
-\]
+$$
+|K| = L \times p_{\text{match}}
+$$
 
 where:
 
 - \( L \) = number of qubits transmitted  
-- \( p_{match} \) = probability of matching measurement bases (~50%)
+- \( p_{\text{match}} \) = probability of matching measurement bases (~50%)
 
-Key A is then used to derive the AES encryption key \( K_{AES} \), and to compute an HMAC for integrity:
+Key A is then used to derive the AES encryption key \( K_{\text{AES}} \), and to compute an HMAC for integrity:
 
-\[
-C = E_{AES-256}(M, K_{AES})
-\]
+$$
+C = E_{\text{AES-256}}(M, K_{\text{AES}})
+$$
 
-\[
-H = HMAC_{SHA-256}(C \| K_B)
-\]
+$$
+H = \text{HMAC}_{\text{SHA-256}}(C \mid K_B)
+$$
 
 where:
 
@@ -80,9 +80,9 @@ where:
 
 An optional Dilithium2 signature is computed over the package for post-quantum integrity:
 
-\[
-\sigma = Sign_{Dilithium2}(C \| H \| Enc(K_A))
-\]
+$$
+\sigma = \text{Sign}_{\text{Dilithium2}}(C \mid H \mid \text{Enc}(K_A))
+$$
 
 **Figure 2. Encryption Process of the BB84 Hybrid Quantum-Classical Encryption Tool.**  
 The diagram shows the flow from BB84 key generation to encryption, integrity validation, and optional post-quantum signing.
@@ -97,15 +97,15 @@ The decryption process begins with the user providing the encrypted package and 
 
 Integrity verification:
 
-\[
-H' = HMAC_{SHA-256}(C \| K_B)
-\]
+$$
+H' = \text{HMAC}_{\text{SHA-256}}(C \mid K_B)
+$$
 
 If \( H' = H \), the package is authentic. The decryption proceeds:
 
-\[
-M = D_{AES-256}(C, K_{AES})
-\]
+$$
+M = D_{\text{AES-256}}(C, K_{\text{AES}})
+$$
 
 **Figure 3. Decryption Process of the BB84 Hybrid Quantum-Classical Encryption Tool.**  
 The diagram shows the process of integrity verification and decryption of the original file.
@@ -119,7 +119,7 @@ The diagram shows the process of integrity verification and decryption of the or
 **Figure 4. GUI of the BB84 Hybrid Quantum-Classical Encryption Tool during Encryption.**  
 The GUI provides a user-friendly interface for interacting with the hybrid cryptographic process.
 
-![GUI showing encryption process and Key B output](images/key_data.png)
+![GUI showing encryption process and Key B output](images/process_guil.png)
 
 ---
 
