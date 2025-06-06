@@ -5,11 +5,12 @@ authors:
   - name:
       given-names: Hector
       surname: Mozo
-    orcid: 0000-0008-2426-623X
+    orcid: 0009-0008-2426-623X
     affiliation: "1"
 affiliations:
   - index: 1
     name: Department of Computer Science, University of the People, California, USA
+bibliography: paper.bib
 ---
 
 
