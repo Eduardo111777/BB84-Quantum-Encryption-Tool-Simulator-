@@ -1,11 +1,17 @@
 ---
 title: 'BB84 Hybrid Quantum-Classical Encryption Framework: Simulated BB84, AES-256, and Post-Quantum Secure File Encryption'
+date: 9 June 2025
 authors:
-  - name: Hector Mozo
-    orcid: 0000-0008-2426-623X (https://orcid.org/0009-0008-2426-623X) 
-    affiliation: 'Department of Computer Science, University of the People, California, USA'
-    date: 2025-06-06
+  - name:
+      given-names: Hector
+      surname: Mozo
+    orcid: 0000-0008-2426-623X
+    affiliation: "1"
+affiliations:
+  - index: 1
+    name: Department of Computer Science, University of the People, California, USA
 ---
+
 
 Corresponding author: Hector Mozo (HectorMozo@my.uopeople.edu)  
 Secondary email: hectormozo308@gmail.com  
