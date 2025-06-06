@@ -44,12 +44,12 @@ bb84_backend/
 
 - Python 3.9+
 - Qiskit
-- `pqcrypto` (optional, for post-quantum signing)
+- `pqcrypto` (optional for post-quantum signing)
 - Other: `tkinter`, `cryptography`, `pyperclip`, etc.
 
 ---
 
-## 🛠️ Installation
+## Install all requirements
 
 ```bash
 pip install -r requirements.txt
@@ -59,38 +59,88 @@ pip install -r requirements.txt
 
 ## 🚀 Usage
 
-1. Run the GUI:
+### 🧪 Generate Quantum Key
 
-```bash
-python gui/bb84_gui.py
+```python
+from core.bb84_quantum import bb84_protocol
+
+key_a, key_b, match_indices = bb84_protocol(length=256, authenticate=True)
 ```
 
-2. Follow the interface to:
+### 🔒 Encrypt a File
 
-- Select a file to encrypt.
-- Perform BB84 key generation.
-- Encrypt the file using AES-256 and store the encrypted Key A with validation via Key B and HMAC.
-- Optionally sign the encrypted package with Dilithium2.
+```python
+from secure_io.file_io import save_encrypted_file
+
+with open("secret.txt", "rb") as f:
+    data = f.read()
+
+package_bytes = save_encrypted_file(data, key_a, key_b, original_filename="secret.txt")
+
+with open("encrypted_output.bb84", "wb") as out:
+    out.write(package_bytes)
+```
+
+### 🔓 Decrypt
+
+```python
+from secure_io.file_io import load_and_decrypt_bytes
+
+with open("encrypted_output.bb84", "rb") as f:
+    package = f.read()
+
+plaintext, metadata, ok = load_and_decrypt_bytes(package, key_b)
+
+if ok:
+    with open("decrypted_" + metadata["original_filename"], "wb") as f:
+        f.write(plaintext)
+```
 
 ---
 
-## 🧑‍💻 Author
+## 🔐 Security Model
 
-- **Héctor Mozo**  
-  Department of Computer Science, University of the People
+- Zero-trust decryption model (requires only Key B to derive and validate Key A)
+- AES-256 + salted derivation ensures strong symmetric encryption
+- BB84 simulated quantum randomness ensures key unpredictability
+- Optional Dilithium2 post-quantum signatures prevent tampering
+
+---
+
+## 🧠 Academic Value
+
+This system simulates and integrates real-world quantum principles into a hybrid encryption protocol. It can serve as:
+
+- A secure file encryption tool
+- A proof-of-concept for post-quantum cryptography
+- A foundation for further research and academic publication
 
 ---
 
 ## 📄 License
 
-This project is licensed under the MIT License.
+This project is licensed under the Apache License 2.0 — see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 📢 Citation
+## 📚 Citation
 
-If you use this project in academic work, please cite it as:
+If you use this software in academic work or publications, please cite it as:
 
-> Mozo, H. (2025). *BB84 Hybrid Quantum-Classical Encryption System (Version 1.0.0)* [Software]. GitHub. [https://github.com/Eduardo111777/BB84-Quantum-Encryption-Tool-Simulator-](https://github.com/Eduardo111777/BB84-Quantum-Encryption-Tool-Simulator-)
+> Mozo, H. (2025). *BB84 Hybrid Quantum-Classical Encryption Tool.* Journal of Open Source Software. DOI: *[pending upon acceptance]*.
+
+---
+
+## ⚠️ Commercial Use Notice
+
+If used in commercial products or services, proper attribution to Hector Mozo as the original author is required.  
+Commercial users are kindly requested to contact the author at [hectormozo308@gmail.com](mailto:hectormozo308@gmail.com) to discuss potential licensing, partnership opportunities, or attribution preferences.
+
+---
+
+## 🙌 Credits
+
+Developed by **Héctor Mozo**, 05/29/2025 — 05/31/2025.  
+Includes contributions and tools from **Qiskit** and the **pqcrypto** library.
 
 ---
