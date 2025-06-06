@@ -1,11 +1,20 @@
+---
+title: 'BB84 Hybrid Quantum-Classical Encryption Framework: Simulated BB84, AES-256, and Post-Quantum Secure File Encryption'
+authors:
+  - name: Hector Mozo
+    orcid: 0000-0008-2426-623X
+    affiliation: 'Department of Computer Science, University of the People, California, USA'
+    date: 2025-06-06
+---
+
 # BB84 Hybrid Quantum-Classical Encryption Framework: Simulated BB84, AES-256, and Post-Quantum Secure File Encryption
 
 ## Authors
 
 Hector Mozo  
-Department of Computer Science, University of the People, California, USA
+Department of Computer Science, University of the People, California, USA  
 Emails: HectorMozo@my.uopeople.edu, hectormozo308@gmail.com  
-ORCID iD: [0009-0008-2426-623X](https://orcid.org/0009-0008-2426-623X)
+ORCID iD: [0009-0008-2426-623X](https://orcid.org/0009-0008-2426-623X)  
 LinkedIn: https://www.linkedin.com/in/hector-mozo-462899312/
 
 
@@ -19,11 +28,11 @@ This software can serve as an educational and research platform for exploring hy
 
 ## Statement of need
 
-As quantum computing capabilities advance, the need for cryptographic systems that can withstand quantum attacks has become a critical research area (Bernstein & Lange, 2017). Hybrid cryptographic solutions, combining quantum key distribution (QKD) and classical encryption, offer a promising approach to achieving both forward secrecy and compatibility with existing infrastructures (Chen et al., 2016).
+As quantum computing capabilities advance, the need for cryptographic systems that can withstand quantum attacks has become a critical research area [@bernstein2017post]. Hybrid cryptographic solutions, combining quantum key distribution (QKD) and classical encryption, offer a promising approach to achieving both forward secrecy and compatibility with existing infrastructures [@chen2016nist].
 
-While theoretical models of QKD exist, many implementations focus on the quantum layer alone, lacking integration with practical encryption workflows or usable tools for real-world applications (Liu et al., 2024). In particular, tools that combine QKD-inspired key exchange with robust symmetric encryption, integrity verification, and post-quantum signature schemes remain scarce in open-source form.
+While theoretical models of QKD exist, many implementations focus on the quantum layer alone, lacking integration with practical encryption workflows or usable tools for real-world applications [@liu2024hybrid]. In particular, tools that combine QKD-inspired key exchange with robust symmetric encryption, integrity verification, and post-quantum signature schemes remain scarce in open-source form.
 
-The BB84 Hybrid Quantum-Classical Encryption Tool addresses this gap by providing an open-source, modular framework that combines a simulated QKD process with AES-256 encryption and HMAC-based integrity validation. It also supports optional post-quantum digital signatures using Dilithium2 (Bos et al., 2018), ensuring strong protections even in the presence of quantum-capable adversaries.
+The BB84 Hybrid Quantum-Classical Encryption Tool addresses this gap by providing an open-source, modular framework that combines a simulated QKD process with AES-256 encryption and HMAC-based integrity validation. It also supports optional post-quantum digital signatures using Dilithium2 [@bos2018crystals], ensuring strong protections even in the presence of quantum-capable adversaries.
 
 By emphasizing end-to-end encryption workflows and providing reproducible metrics, the tool offers a valuable platform for education, experimentation, and early-stage research on hybrid cryptographic architectures.
 
@@ -35,9 +44,9 @@ The BB84 Hybrid Quantum-Classical Encryption Tool is implemented as an open-sour
 
 The architecture of the tool is shown in Figure 1. The system consists of four main components:
 
-- **Quantum Key Generation Module**: Simulates the BB84 protocol using Qiskit (Abraham et al., 2019), producing two keys: Key A (used internally) and Key B (shared for decryption validation).
+- **Quantum Key Generation Module**: Simulates the BB84 protocol using Qiskit [@abraham2019qiskit], producing two keys: Key A (used internally) and Key B (shared for decryption validation).
 - **Cryptographic Engine**: Performs AES-256 encryption with salted key derivation and HMAC-based integrity validation.
-- **Post-Quantum Signature Integration**: Optionally applies a Dilithium2 signature (Bos et al., 2018) to the package.
+- **Post-Quantum Signature Integration**: Optionally applies a Dilithium2 signature [@bos2018crystals] to the package.
 - **Graphical User Interface (GUI)**: Provides user-friendly interaction and visualization.
 
 **Figure 1. Modular Architecture of the BB84 Hybrid Quantum-Classical Encryption Tool.**  
@@ -209,4 +218,5 @@ The core quantum key generation module and cryptographic engine can be integrate
 
 The software’s modular architecture facilitates adaptation to different user interfaces or backends, and its metrics reporting capabilities make it suitable for comparative evaluations and reproducible research in the field of post-quantum and hybrid cryptography.
 
+## References
 
