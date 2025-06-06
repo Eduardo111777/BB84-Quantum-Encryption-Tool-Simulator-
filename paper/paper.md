@@ -55,7 +55,7 @@ The diagram shows the separation between GUI, controller logic, core cryptograph
 
 ![Software Architecture of the BB84 Hybrid Quantum-Classical Encryption Tool](images/architecture_diagram.png)
 
----
+
 
 ### Encryption Process
 
@@ -99,7 +99,7 @@ The diagram shows the flow from BB84 key generation to encryption, integrity val
 
 ![Encryption Process](images/encryption_process.png)
 
----
+
 
 ### Decryption Process
 
@@ -122,7 +122,7 @@ The diagram shows the process of integrity verification and decryption of the or
 
 ![Decryption Process](images/decryption_process.png)
 
----
+
 
 ### Graphical User Interface (GUI)
 
@@ -131,16 +131,18 @@ The GUI provides a user-friendly interface for interacting with the hybrid crypt
 
 ![GUI showing encryption process and Key B output](images/process_guil.png)
 
----
+
 
 ### Example Metrics
 
 The tool generates detailed metrics during encryption and decryption, supporting reproducibility and evaluation.
 
 **Figure 5. Example Encryption Metrics.**  
+
 ![Encryption Metrics Report](images/metrics_e.png)
 
 **Figure 6. Example Decryption Metrics.**  
+
 ![Decryption Metrics Report](images/metrics_d.png)
 
 
@@ -176,7 +178,7 @@ key_a, key_b, match_indices = bb84_protocol(length=256, authenticate=True)
 
 The software has been tested on major operating systems (Linux, Windows, macOS) and requires no special hardware.
 
----
+
 
 ## Example(s)
 
