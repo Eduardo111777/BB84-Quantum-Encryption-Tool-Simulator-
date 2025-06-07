@@ -137,11 +137,11 @@ The GUI provides a user-friendly interface for interacting with the hybrid crypt
 
 The tool generates detailed metrics during encryption and decryption, supporting reproducibility and evaluation.
 
-**Figure 5. Example Encryption Metrics.**  
+ 
 
 ![Encryption Metrics Report](images/metrics_e.png)
 
-**Figure 6. Example Decryption Metrics.**  
+
 
 ![Decryption Metrics Report](images/metrics_d.png)
 
