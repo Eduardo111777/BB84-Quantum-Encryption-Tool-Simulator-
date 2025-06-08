@@ -40,7 +40,7 @@ You may:
 
 ## 🔗 License
 
-This repository is licensed under the **Apache License 2.0** — see the [LICENSE](LICENSE) file for details.
+This repository is licensed under the **Apache License 2.0** — see the [LICENSE](main/LICENSE) file for details.
 
 ---
 
