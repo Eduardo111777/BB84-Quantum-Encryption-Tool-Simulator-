@@ -1,5 +1,11 @@
 # secure_packager.py
 # Secure packaging and unpackaging of encrypted files with BB84, AES + HMAC, and post-quantum signature validation
+# ----------------------------------------------------------------------------
+# Copyright 2025 Hector Mozo
+# Licensed under the Apache License, Version 2.0 (the "License");
+# ...
+# ----------------------------------------------------------------------------
+
 
 import json
 import base64

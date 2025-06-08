@@ -1,5 +1,11 @@
 # aes_engine.py
 # Independent AES-256 engine (military-grade), CBC mode with PKCS#7 padding.
+# ----------------------------------------------------------------------------
+# Copyright 2025 Hector Mozo
+# Licensed under the Apache License, Version 2.0 (the "License");
+# ...
+# ----------------------------------------------------------------------------
+
 
 import os
 from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes

@@ -8,6 +8,12 @@ from collections import Counter
 from math import log2
 from typing import Tuple, Optional, List
 import json
+# ----------------------------------------------------------------------------
+# Copyright 2025 Hector Mozo
+# Licensed under the Apache License, Version 2.0 (the "License");
+# ...
+# ----------------------------------------------------------------------------
+
 
 # Add core modules path for relative imports
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))

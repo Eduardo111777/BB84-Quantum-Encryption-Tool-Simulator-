@@ -10,6 +10,12 @@ import threading
 import time
 import json
 from fpdf import FPDF
+# ----------------------------------------------------------------------------
+# Copyright 2025 Hector Mozo
+# Licensed under the Apache License, Version 2.0 (the "License");
+# ...
+# ----------------------------------------------------------------------------
+
 
 # Extend Python path to allow module imports from parent directory
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))

@@ -1,6 +1,12 @@
 # encryption.py
 # Quantum-safe encryption and decryption using BB84-generated keys with AES-256.
 # Independent version with no external imports. Ready for controller-level integration only.
+# ----------------------------------------------------------------------------
+# Copyright 2025 Hector Mozo
+# Licensed under the Apache License, Version 2.0 (the "License");
+# ...
+# ----------------------------------------------------------------------------
+
 
 import base64
 from typing import List, Optional, Tuple

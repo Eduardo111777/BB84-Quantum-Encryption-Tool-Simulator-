@@ -1,5 +1,11 @@
 # bb84_quantum.py
 # BB84 Quantum Key Distribution using Qiskit AerSimulator with optional post-quantum authentication.
+# ----------------------------------------------------------------------------
+# Copyright 2025 Hector Mozo
+# Licensed under the Apache License, Version 2.0 (the "License");
+# ...
+# ----------------------------------------------------------------------------
+
 
 from qiskit import QuantumCircuit
 from qiskit_aer import AerSimulator

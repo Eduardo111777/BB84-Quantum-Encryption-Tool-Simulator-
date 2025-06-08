@@ -1,5 +1,11 @@
 # common.py
 # General-purpose utility functions used across BB84 secure communication system.
+# ----------------------------------------------------------------------------
+# Copyright 2025 Hector Mozo
+# Licensed under the Apache License, Version 2.0 (the "License");
+# ...
+# ----------------------------------------------------------------------------
+
 
 import hashlib
 import base64

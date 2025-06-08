@@ -144,3 +144,8 @@ Developed by **Héctor Mozo**, 05/29/2025 — 05/31/2025.
 Includes contributions and tools from **Qiskit** and the **pqcrypto** library.
 
 ---
+
+---
+
+© 2025 Héctor Mozo — Licensed under the Apache License, Version 2.0
+

@@ -1,6 +1,12 @@
 # key_utils.py
 # Utilities for BB84 quantum key post-processing and AES-256 derivation.
 # Includes entropy validation, conversion, and HMAC integrity check.
+# ----------------------------------------------------------------------------
+# Copyright 2025 Hector Mozo
+# Licensed under the Apache License, Version 2.0 (the "License");
+# ...
+# ----------------------------------------------------------------------------
+
 
 from typing import List
 from hashlib import pbkdf2_hmac
