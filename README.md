@@ -140,7 +140,7 @@ Commercial users are kindly requested to contact the author at [hectormozo308@gm
 
 ## 🙌 Credits
 
-Developed by **Héctor Mozo**, 05/29/2025 — 05/31/2025.  
+Developed by **Héctor Mozo**, 05/29/2025.  
 Includes contributions and tools from **Qiskit** and the **pqcrypto** library.
 
 ---
