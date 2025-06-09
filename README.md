@@ -141,8 +141,9 @@ Commercial users are kindly requested to contact the author at [hectormozo308@gm
 
 ## 🙌 Credits
 
-Developed by **Héctor Mozo**.  
-Includes contributions and tools from **Qiskit** and the **pqcrypto** library.
+**Primary developer:** **Héctor Mozo**  
+**Development period:** January 2025 – May 29, 2025 (local environment)  
+The project leverages components from **Qiskit** and the **pqcrypto** library.
 
 ---
 ## Contributing
