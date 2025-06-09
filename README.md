@@ -13,6 +13,7 @@ This project implements a complete quantum-classical encryption framework based 
 - 🔏 **Optional post-quantum signature** using Dilithium2 (if supported)
 - 📦 **Modular architecture** with clean separation between crypto engine, quantum logic, and GUI
 - 🖥️ **Tkinter GUI** for file selection, key generation, and process visualization
+- 🧩 The system is modular, portable, and scalable, enabling smooth adaptation across platforms, integration with other security modules, and future research extensions.
 
 ---
 
