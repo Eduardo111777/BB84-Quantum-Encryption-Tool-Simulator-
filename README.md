@@ -35,7 +35,9 @@ bb84_backend/
 ├── secure_io/
 │   ├── secure_packager.py     # File encryption packaging, signature, and HMAC
 │   └── __init__.py
-└── requirements.txt
+├── start_gui.py               # Launcher script for GUI (alternative to running gui/bb84_gui.py)
+├── requirements.txt
+└── README.md
 ```
 
 ---
@@ -140,10 +142,25 @@ Commercial users are kindly requested to contact the author at [hectormozo308@gm
 
 ## 🙌 Credits
 
-Developed by **Héctor Mozo**, 05/29/2025 — 05/31/2025.  
+Developed by **Héctor Mozo**, 05/29/2025.  
 Includes contributions and tools from **Qiskit** and the **pqcrypto** library.
 
 ---
+## Contributing
+
+Contributions to this project are welcome!
+
+If you would like to contribute, please:
+
+- Fork the repository.
+- Create a new branch for your feature or bugfix.
+- Submit a pull request with a clear description of your changes.
+
+Please ensure that your code follows good coding practices and includes appropriate documentation where necessary.
+
+You can also open issues to report bugs or suggest enhancements.
+
+We encourage contributions that align with the project's goal of advancing research in quantum-classical hybrid cryptography.
 
 ---
 

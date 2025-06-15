@@ -19,7 +19,7 @@ from fpdf import FPDF
 
 # Extend Python path to allow module imports from parent directory
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-from logic.controller import encrypt_file_local, decrypt_file_local
+from bb84_backend.logic.controller import encrypt_file_local, decrypt_file_local
 
 class BB84App:
     def __init__(self, root):
@@ -255,8 +255,11 @@ class BB84App:
             pdf.output(save_path)
             messagebox.showinfo("Saved", f"PDF report saved to: {save_path}")
 
-if __name__ == "__main__":
-    # Launch the GUI application
+def main():
+    import tkinter as tk
     root = tk.Tk()
     app = BB84App(root)
     root.mainloop()
+
+if __name__ == "__main__":
+    main()
