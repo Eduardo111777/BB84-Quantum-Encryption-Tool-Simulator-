@@ -125,11 +125,28 @@ This project is licensed under the Apache License 2.0 — see the [LICENSE](LICE
 
 ---
 
-## 📚 Citation
+## 📄 Citation
 
-If you use this software in academic work or publications, please cite it as:
+If you use or reference this project in your research or software, please cite the following preprint:
 
-> Mozo, H. (2025). *BB84 Hybrid Quantum-Classical Encryption Tool.* Journal of Open Source Software. DOI: *[pending upon acceptance]*.
+### APA (7th edition)
+Mozo, H. E. (2025, June 27). *Quantum-Classical Hybrid Encryption Framework Based on Simulated BB84 and AES-256: Design and Experimental Evaluation*. TechRxiv. https://doi.org/10.36227/techrxiv.175099973.38232383/v1
+
+### IEEE
+H. E. Mozo, "Quantum-Classical Hybrid Encryption Framework Based on Simulated BB84 and AES-256: Design and Experimental Evaluation," *TechRxiv*, June 27, 2025. [Online]. Available: https://doi.org/10.36227/techrxiv.175099973.38232383/v1
+
+### BibTeX
+```bibtex
+@misc{mozo2025quantum,
+  author       = {Hector E. Mozo},
+  title        = {Quantum-Classical Hybrid Encryption Framework Based on Simulated BB84 and AES-256: Design and Experimental Evaluation},
+  year         = {2025},
+  month        = {June},
+  publisher    = {TechRxiv},
+  doi          = {10.36227/techrxiv.175099973.38232383.v1},
+  url          = {https://doi.org/10.36227/techrxiv.175099973.38232383/v1}
+}
+
 
 ---
 
