@@ -125,7 +125,7 @@ This project is licensed under the Apache License 2.0 — see the [LICENSE](LICE
 
 ---
 
-## 📄 Citation
+## 📚 Citation
 
 If you use or reference this project in your research or software, please cite the following preprint:
 
