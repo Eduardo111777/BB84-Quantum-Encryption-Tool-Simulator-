@@ -1,4 +1,5 @@
 # 🔐 BB84 Hybrid Quantum-Classical Encryption System
+Developed in association with **[NeureonMindFlux Research Lab](https://github.com/Neureonmindflux-Research-Lab)**
 
 This project implements a complete quantum-classical encryption framework based on the BB84 protocol for secure key distribution, combined with AES-256 symmetric encryption, HMAC validation, and optional post-quantum authentication using Dilithium2.
 
@@ -118,45 +119,6 @@ This system simulates and integrates real-world quantum principles into a hybrid
 - A foundation for further research and academic publication
 
 ---
-
-## 📄 License
-
-This project is licensed under the Apache License 2.0 — see the [LICENSE](LICENSE) file for details.
-
----
-
-## 📚 Citation
-
-If you use or reference this project in your research or software, please cite the following preprint:
-
-### APA (7th edition)
-Mozo, H. E. (2025, June 27). *Quantum-Classical Hybrid Encryption Framework Based on Simulated BB84 and AES-256: Design and Experimental Evaluation*. TechRxiv. https://doi.org/10.36227/techrxiv.175099973.38232383/v1
-
-### IEEE
-H. E. Mozo, "Quantum-Classical Hybrid Encryption Framework Based on Simulated BB84 and AES-256: Design and Experimental Evaluation," *TechRxiv*, June 27, 2025. [Online]. Available: https://doi.org/10.36227/techrxiv.175099973.38232383/v1
-
-### BibTeX
-```bibtex
-@misc{mozo2025quantum,
-  author       = {Hector E. Mozo},
-  title        = {Quantum-Classical Hybrid Encryption Framework Based on Simulated BB84 and AES-256: Design and Experimental Evaluation},
-  year         = {2025},
-  month        = {June},
-  publisher    = {TechRxiv},
-  doi          = {10.36227/techrxiv.175099973.38232383.v1},
-  url          = {https://doi.org/10.36227/techrxiv.175099973.38232383/v1}
-}
-
-
----
-
-## ⚠️ Commercial Use Notice
-
-If used in commercial products or services, proper attribution to Hector Mozo as the original author is required.  
-Commercial users are kindly requested to contact the author at [hectormozo308@gmail.com](mailto:hectormozo308@gmail.com) to discuss potential licensing, partnership opportunities, or attribution preferences.
-
----
-
 ## 🙌 Credits
 
 Developed by **Héctor Mozo**, 05/29/2025.  
@@ -180,6 +142,9 @@ You can also open issues to report bugs or suggest enhancements.
 We encourage contributions that align with the project's goal of advancing research in quantum-classical hybrid cryptography.
 
 ---
+## 📄 License
 
-© 2025 Héctor Mozo — Licensed under the Apache License, Version 2.0
+© This project is licensed under the Apache License 2.0 — see the [LICENSE](LICENSE) file for details.
+
+----
 
